@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { StrictMode } from "react";
+// import { StrictMode } from "react";
 import { App } from "./App";
 
 // index.htmlからid(root)を取得
@@ -12,7 +12,7 @@ const root = createRoot(rootElement);
 
 // ルートにReactコンポーネントをレンダリング
 root.render(
-  <StrictMode>
+  // <StrictMode>
     <App />
-  </StrictMode>
+  // </StrictMode>
 );
